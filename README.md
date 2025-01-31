@@ -11,7 +11,8 @@ Data Source <br>
 The data is obtained from the Ergast Developer API, which supplies essential data tables such as circuits, races, constructors, drivers, results, pitstops, lap times, and qualifying sessions.
 
 Entity Relationship Diagram (ERD)
-http://ergast.com/images/ergast_db.png
+![image](https://github.com/user-attachments/assets/1bbdb925-3a8f-4dec-80f5-42d6d33a4529)
+
 
 Project Resources & System Architecture<br>
 Azure Databricks: Used for compute resources, utilizing both Python and SQL for data processing.<br>
@@ -19,6 +20,8 @@ Azure Data Lake Storage Gen2 : Implements hierarchical data storage, utilizing D
 Azure Data Factory (ADF): Orchestrates data pipelines, integrating with Databricks notebooks for automated workflows.<br>
 Azure Key Vault: Manages and secures credentials for accessing ADLS from Databricks notebooks.<br>
 
+Solution Architecture <br>
+![image](https://github.com/user-attachments/assets/d4feb335-3a49-4c38-9ada-362434eb5018)
 
 Step-by-Step Project Workflow
 1. Storage Setup Using ADLS and Containers

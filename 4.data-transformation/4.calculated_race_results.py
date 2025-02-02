@@ -62,7 +62,8 @@ spark.sql(f"""
 
 # COMMAND ----------
 
-merge the results to final table, when an existing driver_id & raceid_arrives, perform update on the existing record otherwise insert a new record.
+# MAGIC %md
+# MAGIC merge the results to final table, when an existing driver_id & raceid_arrives, perform update on the existing record otherwise insert a new record.
 
 # COMMAND ----------
 

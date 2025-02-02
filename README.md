@@ -52,7 +52,10 @@ The final processed datasets were saved in the presentation container. These dat
 6. Azure Data Factory Pipeline Automation<br>
 Pipelines and Triggers <br>
 Created three main pipelines: an ingestion pipeline, a transformation pipeline, and a processing pipeline, all automated with Azure Trigger functionality.
-Utilized tumbling window triggers to automate data processing based on pre-defined date ranges, ensuring timely and accurate updates.
+Utilized tumbling window triggers to run the pipeline once a week between pre-defined start & end dates,  .The ikage below shows the ADF pipeline configuration for data ingestion and transformation.
+
+![image](https://github.com/user-attachments/assets/f6852d3f-cf77-49bf-bc0f-a18b794d800d)
+
 
 ## Visualisation
 1. Area chart below shows the top 10 drivers of all years.
